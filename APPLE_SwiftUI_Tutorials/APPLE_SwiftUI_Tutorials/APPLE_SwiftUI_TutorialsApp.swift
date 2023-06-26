@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+//@main -- the app’s entry point
 @main
 struct APPLE_SwiftUI_TutorialsApp: App {
     var body: some Scene {
