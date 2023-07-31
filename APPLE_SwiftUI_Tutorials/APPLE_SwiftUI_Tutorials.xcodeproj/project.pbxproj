@@ -18,6 +18,7 @@
 		A3E4697A2A781F050077BEF0 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E469792A781F050077BEF0 /* BadgeBackground.swift */; };
 		A3E4697D2A7829B60077BEF0 /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E4697C2A7829B60077BEF0 /* BadgeSymbol.swift */; };
 		A3E4697F2A782B7B0077BEF0 /* RotateBadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E4697E2A782B7B0077BEF0 /* RotateBadgeSymbol.swift */; };
+		A3E469812A782C280077BEF0 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E469802A782C280077BEF0 /* Badge.swift */; };
 		A3E556512A49F2A400487850 /* APPLE_SwiftUI_TutorialsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E556502A49F2A400487850 /* APPLE_SwiftUI_TutorialsApp.swift */; };
 		A3E556532A49F2A400487850 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E556522A49F2A400487850 /* ContentView.swift */; };
 		A3E556552A49F2A500487850 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3E556542A49F2A500487850 /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 		A3E469792A781F050077BEF0 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
 		A3E4697C2A7829B60077BEF0 /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
 		A3E4697E2A782B7B0077BEF0 /* RotateBadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateBadgeSymbol.swift; sourceTree = "<group>"; };
+		A3E469802A782C280077BEF0 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
 		A3E5564D2A49F2A400487850 /* APPLE_SwiftUI_Tutorials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APPLE_SwiftUI_Tutorials.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3E556502A49F2A400487850 /* APPLE_SwiftUI_TutorialsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APPLE_SwiftUI_TutorialsApp.swift; sourceTree = "<group>"; };
 		A3E556522A49F2A400487850 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,7 +61,7 @@
 		A32A6E3D2A4B3EB50050FC59 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				A3E4697B2A7829940077BEF0 /* Drawings */,
+				A3E4697B2A7829940077BEF0 /* Badges */,
 				A3E556522A49F2A400487850 /* ContentView.swift */,
 				A32A6E352A4B2CDD0050FC59 /* MapView.swift */,
 				A3E5565E2A49FDB400487850 /* CircleImage.swift */,
@@ -87,15 +89,16 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		A3E4697B2A7829940077BEF0 /* Drawings */ = {
+		A3E4697B2A7829940077BEF0 /* Badges */ = {
 			isa = PBXGroup;
 			children = (
 				A3E469792A781F050077BEF0 /* BadgeBackground.swift */,
 				A3E469772A781DBC0077BEF0 /* HexagonParameters.swift */,
 				A3E4697C2A7829B60077BEF0 /* BadgeSymbol.swift */,
 				A3E4697E2A782B7B0077BEF0 /* RotateBadgeSymbol.swift */,
+				A3E469802A782C280077BEF0 /* Badge.swift */,
 			);
-			path = Drawings;
+			path = Badges;
 			sourceTree = "<group>";
 		};
 		A3E556442A49F2A400487850 = {
@@ -213,6 +216,7 @@
 				A32A6E362A4B2CDD0050FC59 /* MapView.swift in Sources */,
 				A3E4697D2A7829B60077BEF0 /* BadgeSymbol.swift in Sources */,
 				A36827682A4DE52000349E5D /* LandmarkDetail.swift in Sources */,
+				A3E469812A782C280077BEF0 /* Badge.swift in Sources */,
 				A3E4697A2A781F050077BEF0 /* BadgeBackground.swift in Sources */,
 				A3E556512A49F2A400487850 /* APPLE_SwiftUI_TutorialsApp.swift in Sources */,
 				A3E5565F2A49FDB400487850 /* CircleImage.swift in Sources */,
