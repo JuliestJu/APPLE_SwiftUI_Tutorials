@@ -23,7 +23,11 @@ struct CategoryRow: View {
                        spacing: 0,
                        content: {
                     ForEach(items) { landmark in
-                        CategoryItem(landmark: landmark)
+                        NavigationLink {
+                            LandmarkDetail(landMark: landmark)
+                        } label: {
+                            CategoryItem(landmark: landmark)
+                        }
                     }
                 })
             }
